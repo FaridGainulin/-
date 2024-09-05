@@ -17,12 +17,12 @@
       padding 45px 0 107px 0
 
   &__logo-icon
-    width 280px
-    height: auto
-    margin 25px auto 15px
+    display: none
     +above($breakpoints.sm)
+      display: block
       margin 35px 0 21px 0
       width 290px
+      height: auto
     +above($breakpoints.md)
       margin 55px 0 21px 0
       width 300px
@@ -36,7 +36,7 @@
       text-align: start
 
   &__title
-    padding 0 0 15px 0
+    padding 20px 0 15px 0
     +above($breakpoints.sm)
       padding 0 0 35px 0
     +above($breakpoints.md)

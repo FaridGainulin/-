@@ -11,14 +11,21 @@
       display: block
 
   &__logo
-    width 40px
-    height: auto
+    display: none
     +above($breakpoints.sm)
+      display: block
       width 40px
+      height: auto
     +above($breakpoints.md)
       width 45px
     +above($breakpoints.xxl)
       width 48px
+
+  &__logo-mobile
+    width 140px
+    height: auto
+    +above($breakpoints.sm)
+      display: none
 
   &__connection
     display: flex
