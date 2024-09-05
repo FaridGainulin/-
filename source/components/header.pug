@@ -1,0 +1,12 @@
+header.header
+  .header__container
+      .header__text.font-s-12
+        .font-w-bold КвинтАп Климат
+        | Франшиза магазина <br> климатического оборудования
+      img.header__logo(src="images/header-logo.png" loading="lazy" width="144" height="126" alt="logo")
+      .header__connection
+        a(href="tel:+70000000000")
+          img.header__connection-icon(src="images/connection-icon.svg" loading="lazy" width="44" height="44" alt="icon")
+        .header__connection-number
+          include ../components/phone-number.pug
+        .header__call-me.font-w-bold.font-s-16(data-remodal-target="modal-form-call-me") Заказать звонок

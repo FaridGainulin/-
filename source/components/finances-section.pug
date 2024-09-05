@@ -1,0 +1,52 @@
+section.finances-section
+  .wrapper
+    .finances-section__container
+      img.finances-section__img(src="images/finances-section-img.png" loading="lazy" width="1322" height="561" alt="image")
+      img.finances-section__arrow(src="images/finances-section-arrow.png" loading="lazy" width="106" height="82" alt="image")
+      .swiper-finances
+        .finances-section__cards.swiper-wrapper
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="72" height="72" alt="icon")
+            .font-w-j-bold.font-s-36.color-blue 100 000 ₽
+            .font-s-20 размер <br> ежемесячной прибыли
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="72" height="72" alt="icon")
+            .font-w-j-bold.font-s-36.color-blue 1 500 000 ₽
+            .font-s-20 средний <br> размер вложений
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="72" height="72" alt="icon")
+            .font-w-j-bold.font-s-36.color-blue 735 000 ₽
+            .font-s-20 размер <br> ежемесячной выручки
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="72" height="72" alt="icon")
+            .font-w-j-bold.font-s-36.color-blue 26 дней
+            .font-s-20 средний срок <br> открытия магазина
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="72" height="72" alt="icon")
+            .font-w-j-bold.font-s-36.color-blue 50 000 ₽
+            .font-s-20 размер <br> среднего чека
+          .finances-section__card.swiper-slide
+            img.finances-section__card-icon(src="images/finances-section-card-icon.svg" loading="lazy" width="72" height="72" alt="icon")
+            .font-w-j-bold.font-s-36.color-blue 16 месяцев
+            .font-s-20 срок окупаемости <br> инвестиций
+        .finances-pagination.swiper-progress-finances
+      .finances-section__bottom
+        .finances-section__bottom-text
+          .font-w-j-bold.font-s-26.text-up
+            | Хотите получить 
+            span.color-blue детальные 
+            br.no-br
+            span.color-blue цифры 
+            | для вашего города 
+            br.no-br
+            | и под ваш бюджет?
+          .finances-section__bottom-sub-title.font-w-bold.font-s-20
+            img.finances-section__bottom-sub-title-icon(src="images/finances-section-bottom-sub-title-icon.svg" loading="lazy" width="25" height="25" alt="icon")
+            | Скачайте финансовую модель 
+            br.no-br
+            span.color-blue «КвинтАп климат»
+        form.finances-section__form(data-feedback-form)
+          img.finances-section__bottom-icon(src="images/finances-section-bottom-icon.png" loading="lazy" width="602" height="628" alt="icon")
+          input.input.input--secondary(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input.input--secondary(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Получить план открытия

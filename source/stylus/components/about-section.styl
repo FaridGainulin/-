@@ -1,0 +1,225 @@
+.about-section
+  background-image: url('../images/about-section-bg.jpg')
+  background-repeat: no-repeat
+  background-position: center
+  background-size: cover
+  background-color #f8f8f8
+
+  &__container
+    color: #141414
+    position relative
+    text-align: center
+    padding 20px 0 20px 0
+    +above($breakpoints.sm)
+      text-align: start
+      padding 40px 0 60px 0
+    +above($breakpoints.md)
+      padding 50px 0 90px 0
+    +above($breakpoints.xxl)
+      padding 141px 0 100px 0
+
+  &__title
+    padding 0 0 15px 0
+    +above($breakpoints.sm)
+      padding 0 0 20px 0
+    +above($breakpoints.md)
+      padding 0 0 20px 0
+    +above($breakpoints.xxl)
+      padding 0 0 20px 0
+
+  &__main-text
+    padding 10px 0
+    +above($breakpoints.md)
+      padding 20px 0
+    +above($breakpoints.xxl)
+      padding 50px 0 35px 0
+
+  &__line-blue
+    background-color #324EAD
+    height: 2px
+    width 250px
+    margin 0 auto
+    +above($breakpoints.sm)
+      margin 0
+      width 300px
+    +above($breakpoints.md)
+      width 490px
+    +above($breakpoints.xxl)
+      width 590px
+
+  &__line-black
+    background-color #7c7c7c
+    height: 1px
+    width 250px
+    margin 0 auto
+    margin-bottom 15px
+    +above($breakpoints.sm)
+      margin 0
+      margin-bottom 10px
+      width 300px
+    +above($breakpoints.md)
+      margin-bottom 20px
+      width 490px
+    +above($breakpoints.xxl)
+      margin-bottom 30px
+      width 590px
+
+  &__img
+    width 250px
+    height: auto
+    margin 10px auto 0
+    +above($breakpoints.sm)
+      margin 0
+      position: absolute
+      top: 20px;
+      right: -8px;
+      width: 252px;
+    +above($breakpoints.md)
+      width: 340px;
+      top: 28px;
+      right: -15px;
+    +above($breakpoints.xxl)
+      width 454px
+      top: 63px
+      right: -15px
+
+  &__middle
+    background-color #fff
+    border-radius: 15px
+    padding 10px
+    margin-top 15px
+    margin-bottom 15px
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 10px
+    +above($breakpoints.sm)
+      margin-top 30px
+      margin-bottom 24px
+      flex-direction: row
+      justify-content space-between
+    +above($breakpoints.md)
+      margin-top 53px
+      padding 20px 20px 20px 20px
+      margin-bottom 34px
+    +above($breakpoints.xxl)
+      margin-top 73px
+      margin-bottom 54px
+      padding 20px 29px 20px 57px
+
+  &__middle-right
+    position relative
+    color: #F8F8F8
+    background-image: url('../images/about-section-middle-right-bg.jpg')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    background-color #e81313
+    border-radius: 15px
+    padding 10px
+    width 278px
+    height: 52px
+    +above($breakpoints.sm)
+      padding 20px 10px 10px 20px
+      width 370px
+      height: 160px
+    +above($breakpoints.md)
+      padding 27px 10px 10px 32px
+      width 500px
+      height: 180px
+    +above($breakpoints.xxl)
+      padding 37px 10px 10px 42px
+      width 582px
+      height: 222px
+
+  &__middle-right-icon
+    display: none
+    +above($breakpoints.sm)
+      display: block
+      position: absolute
+      width 110px
+      height: auto
+      bottom: 0
+      right: 10px
+    +above($breakpoints.md)
+      width 130px
+      right: 15px
+    +above($breakpoints.xxl)
+      width 158px
+      right: 22px
+
+  &__bottom
+    background-color #fff
+    color: #fff
+    border-radius: 20px
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 15px
+    +above($breakpoints.sm)
+      flex-direction: row
+      gap: 20px
+    +above($breakpoints.md)
+      gap: 40px
+    +above($breakpoints.xxl)
+      gap: 47px
+
+  &__bottom-left
+    background-image: url('../images/about-section-bottom-left-bg.jpg')
+    background-repeat: no-repeat
+    background-position: center
+    background-size: cover
+    background-color #3757b1
+    border-radius: 20px
+    padding 10px
+    +above($breakpoints.sm)
+      padding: 50px 10px 25px 20px;
+      width: 350px;
+      height: 310px;
+    +above($breakpoints.md)
+      padding 62px 10px 65px 30px
+      width 400px
+      height: 400px
+    +above($breakpoints.xxl)
+      padding 72px 10px 75px 50px
+      width 559px
+      height: 446px
+
+  &__bottom-logo
+    width 150px
+    height: auto
+    margin 0 auto
+    +above($breakpoints.sm)
+      margin 0
+      width 260px
+    +above($breakpoints.md)
+      width 280px
+    +above($breakpoints.xxl)
+      width 319px
+
+  &__bottom-left-text
+    padding 15px 0
+    color: #cad6eb
+    +above($breakpoints.sm)
+      padding 50px 0 20px 0
+    +above($breakpoints.md)
+      padding 80px 0 20px 0
+    +above($breakpoints.xxl)
+      padding 106px 0 20px 0
+
+  &__form
+    display: flex
+    flex-direction: column
+    align-items: center
+    gap: 5px
+    width 268px
+    padding-bottom 15px
+    +above($breakpoints.sm)
+      padding-bottom 0
+      width 335px
+    +above($breakpoints.md)
+      gap: 8px
+      width 480px
+    +above($breakpoints.xxl)
+      width 514px
+      gap: 10px

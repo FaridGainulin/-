@@ -1,0 +1,24 @@
+section.main-section
+  .wrapper
+    .main-section__container
+      include ../components/header.pug
+      img.main-section__logo-icon(src="images/main-section-logo-icon.png" loading="lazy" width="639" height="142" alt="logo")
+      h1.main-section__title.font-w-j-bold.font-s-45.text-up
+        | Получайте 
+        span.main-section__title-mark от 100 000 ₽ 
+        br.no-br
+        | чистой прибыли открыв 
+        br.no-br
+        | магазин климатического 
+        br.no-br
+        | оборудования
+      .main-section__bottom.text-center
+        .font-w-bold.font-s-16
+          | Получите 
+          span.color-blue подробный план 
+          | открытия
+        form.main-section__form(data-feedback-form)
+          input.input(type="text" name="name" autocomplete="off" placeholder="Имя")
+          input.input(type="tel" name="phone" autocomplete="off" data-inputmask="'mask': '+7 (999) 999 9999'" placeholder="Телефон")
+          button.btn(type="submit") Получить план открытия
+      img.main-section__img(src="images/main-section-img.png" loading="lazy" width="1350" height="871" alt="image")
