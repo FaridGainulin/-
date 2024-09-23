@@ -227,18 +227,22 @@ function initSwiperDesktop() {
       200: {
         spaceBetween: 10,
         slidesPerView: 1,
+        slidesPerGroup: 1,
       },
       768: {
         spaceBetween: 10,
         slidesPerView: 3,
+        slidesPerGroup: 3,
       },
       1024: {
         spaceBetween: 20,
         slidesPerView: 3,
+        slidesPerGroup: 3,
       },
       1400: {
         spaceBetween: 20,
         slidesPerView: 3,
+        slidesPerGroup: 3,
       },
     },
   })
